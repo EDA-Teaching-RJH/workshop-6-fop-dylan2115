@@ -13,3 +13,14 @@ print(f"sample_total: {len(sample_bay)}")
 for i in range(4):
     print(f"Transmitting data for: [{sample_bay[i]}]")
 
+#task1 part 3 
+#make a empty list and fill it with user input 
+
+new_sample_finding = [] 
+
+for i in range(3):
+    
+    new_sample = (input("new sample found: "))
+    new_sample_finding.append(new_sample)
+
+print(f"new sample: " + str(new_sample_finding))
