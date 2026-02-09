@@ -43,3 +43,14 @@ print(f"new sample: " + str(new_sample_finding))
 
 print("new sample inventory displayed")
 print("------------------------------")
+
+print("cleaning sample bay")
+print("-------------------")
+
+if "Dust" in sample_bay:
+    sample_bay.remove("Dust")
+    
+    print(f"cleand sample bay" + str(sample_bay))
+
+print("sucsefully cleaned sample bay")
+print("-----------------------------")
